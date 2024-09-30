@@ -1,0 +1,30 @@
+{
+  "name": "vue-editorjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Veneridze/vue-editorjs.git"
+  },
+  "author": "Veneridze",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Veneridze/vue-editorjs/issues"
+  },
+  "homepage": "https://github.com/Veneridze/vue-editorjs#readme",
+  "dependencies": {
+    "@editorjs/editorjs": "^2.30.6",
+    "@editorjs/header": "^2.8.7",
+    "@editorjs/list": "^1.10.0",
+    "@editorjs/nested-list": "^1.4.3",
+    "@editorjs/table": "^2.4.1",
+    "@editorjs/underline": "^1.1.0",
+    "editorjs-hyperlink": "^1.0.6",
+    "editorjs-drag-drop": "^1.1.16",
+    "vue": "^3.4.0"
+  }
+}
