@@ -9,8 +9,8 @@ import { onMounted, defineExpose, defineProps, readonly } from 'vue';
 import EditorJS from '@editorjs/editorjs';
 import Header from '@editorjs/header';
 import NestedList from '@editorjs/nested-list';
-import underline from '@editorjs/underline';
-import hyperlink from 'editorjs-hyperlink';
+//import underline from '@editorjs/underline';
+//import hyperlink from 'editorjs-hyperlink';
 import table from '@editorjs/table';
 import List from '@editorjs/list';
 //import { DragDrop } from "editorjs-drag-drop";
@@ -47,7 +47,9 @@ onMounted(async () => {
             header: Header,
             list: List,
             NestedList,
-            underline, table, hyperlink,
+            //underline, 
+            table, 
+            //hyperlink,
         },
         readOnly: props.readonly,
         data: props.data,
