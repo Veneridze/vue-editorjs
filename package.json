@@ -1,6 +1,6 @@
 {
-  "name": "vue-editorjs",
-  "version": "1.0.0",
+  "name": "vue-editorjs-adapter",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {

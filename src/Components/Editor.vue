@@ -13,7 +13,7 @@ import underline from '@editorjs/underline';
 import hyperlink from 'editorjs-hyperlink';
 import table from '@editorjs/table';
 import List from '@editorjs/list';
-import DragDrop from "editorjs-drag-drop";
+//import { DragDrop } from "editorjs-drag-drop";
 
 const saveData = async function () {
     //alert('tset');
@@ -58,7 +58,7 @@ onMounted(async () => {
     try {
         await editor.isReady;
         //console.log('Editor.js is ready to work!')
-        new DragDrop(editor);
+        //new DragDrop(editor);
         /** Do anything you need after editor initialization */
     } catch (reason) {
         console.log(`Editor.js initialization failed because of ${reason}`)
